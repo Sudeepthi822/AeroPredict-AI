@@ -49,3 +49,10 @@ This project is a collaborative effort by the following team members:
     * *Contributions:* ML Model training, `predict_engine.py` architecture, React Dashboard development, and system design.
 * **@Shivareddy8008** (Back end& S ecurity Engineer)
     * *Contributions:* Backend API Bridge, Authentication logic, Database schema, and Input validation.
+
+
+
+## 🛠️ Setup Instructions
+1. Install Python dependencies: `pip install -r requirements.txt`
+2. Run the preprocessing script: `python ml-model/preprocess.py`
+3. Train the model: `python ml-model/train.py`
