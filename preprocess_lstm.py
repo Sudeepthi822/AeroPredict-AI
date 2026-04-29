@@ -20,12 +20,4 @@ def create_sequences(data, sequence_length=30):
 # format the data for your advanced model.
 
 
-import hashlib
 
-def verify_data_integrity(file_path):
-    """Generates a SHA-256 hash to ensure the data hasn't been tampered with."""
-    sha256_hash = hashlib.sha256()
-    with open(file_path, "rb") as f:
-        for byte_block in iter(lambda: f.read(4096), b""):
-            sha256_hash.update(byte_block)
-    print(f"Data Security Signature: {sha256_hash.hexdigest()}")
